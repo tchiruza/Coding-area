@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "jost", sans-sarif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color: #e9e9e9;
+  --text-color: #000;
+  --secound-color: #a09dab;
+  --main-color: #f75023;
+  --jack-color: hsl(12, 41%, 16%);
+  --balole-color: red;
+  --capaciter-font-size: 300px;
+  --back-color: #f75123;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 80.4%;
+}
+
+.editor-menu {
+  width: 100%;
+  height: 6rem;
+
+  background-color: antiquewhite;
+  border-radius: none;
+
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  padding: 5px 0 5px 10px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  background-color: rgb(204, 195, 183);
+
+  padding: 8px 5px;
+  border-radius: 50px;
+
+  font-size: 1.2rem;
+  margin: 8px;
+
+  width: 100px;
+  height: -50px;
+
+  background: transparent;
+  border: 1px solid var(--back-color);
+}
+
+.btn:hover {
+  transition: all 0.5s ease;
+  color: var(--balole-color);
+}
+
+.live {
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  color: #000;
+
+  margin-left: 25px;
+
+  cursor: pointer;
+}
+
+.live > * {
+  cursor: pointer;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  top: 7rem;
+  width: 100%;
+  left: 10px;
+  display: flex;
+}
+
+.lefting {
+  height: 100%;
+  width: 50%;
+  border: 1px solid #a09dab;
+}
+
+.bar {
+  width: 4px;
+  height: 100%;
+  background-color: #e9e9e9;
+  cursor: w-resize;
+}
+
+.righting {
+  flex: 1;
+}
+
+.editor {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  outline: none;
+  padding: 1rem 0 0 1rem;
+  border-color: coral;
+}
+
+.ifram {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow-y: auto;
+  white-space: pre;
+  right: 0;
+  padding: 4px;
+}
+
+.editor-menu i {
+  margin: 5px;
+}

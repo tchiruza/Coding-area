@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="all.css" />
+    <link rel="stylesheet" href="folderDs/design.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700;900&family=Kumbh+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Code editor</title>
+  </head>
+  <body>
+
+    <section class="all">
+      <div class="editor-menu">
+        <button class="btn Light-system" color="blue">Dark system</button>
+        <button class="btn Lighter-system">Light system</button>
+        <button class="btn btn-run"><i class="fa-solid fa-play"></i>Run</button>
+  
+        <div class="live">
+          <label for="live">Online</label>
+          <input type="checkbox" id="live" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="lefting">
+          <div class="editor" contenteditable="">
+            Write your code logic here...
+          </div>
+        </div>
+        <div class="bar" title="Click and Drag"></div>
+        <div class="righting">
+          <iframe src="" frameborder="0" class="ifram">
+              
+          </iframe>
+        </div>
+      </div>
+    </section>
+   
+
+    <!--Javascript zone of  coding-->
+    <script src="decorate.js"></script>
+  </body>
+</html>
